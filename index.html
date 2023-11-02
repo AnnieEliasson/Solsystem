@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Solsytemet</title>
+  </head>
+  <body>
+    <header>
+      <h1>SOLSYSTEMET</h1>
+      <h2>SOLARIS</h2>
+    </header>
+    <div class="container">
+      <div class="planet sun"></div>
+
+      <div class="planets">
+        <div class="planet merkurius"></div>
+        <div class="planet venus"></div>
+        <div class="planet jorden"></div>
+        <div class="planet mars"></div>
+        <div class="planet jupiter"></div>
+        <div class="planet saturnus">
+          <div class="circles"></div>
+        </div>
+        <div class="planet uranus"></div>
+        <div class="planet neptunus"></div>
+      </div>
+    </div>
+
+    <div id="infoPage" class="info">
+      <div class="sun-infopage"></div>
+
+      <article>
+        <section class="about">
+          <h1 id="planetName"></h1>
+          <h2 id="latinName"></h2>
+          <p id="information"></p>
+        </section>
+        <section class="numbers">
+          <ul>
+            <h3>OMKRETS</h3>
+            <li id="circum"></li>
+          </ul>
+          <ul>
+            <h3>KM FRÅN SOLEN</h3>
+            <li id="fromSun"></li>
+          </ul>
+          <ul>
+            <h3>TEMPERATUR DAG</h3>
+            <li id="maxTmp"></li>
+          </ul>
+          <ul>
+            <h3>TEMPERATUR NATT</h3>
+            <li id="minTmp"></li>
+          </ul>
+        </section>
+        <section class="moons">
+          <ul>
+            <h3>MÅNAR</h3>
+            <li id="moons"></li>
+          </ul>
+        </section>
+        <button id="back-button">Tillbaka</button>
+      </article>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
