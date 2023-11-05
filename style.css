@@ -94,6 +94,13 @@ h2 {
   padding: 30px;
 }
 
+.jupiter,
+.saturnus,
+.uranus,
+.neptunus {
+  margin: 1rem;
+}
+
 .merkurius {
   background-color: grey;
 }
